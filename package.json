@@ -1,0 +1,14 @@
+{
+  "name": "shopez",
+  "version": "1.0.0",
+  "description": "ShopEZ — Full-stack MERN e-commerce platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": ["mern", "ecommerce", "react", "express", "mongodb"],
+  "author": "ShopEZ",
+  "license": "MIT"
+}
